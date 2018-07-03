@@ -1,42 +1,62 @@
 package CheckPassFail;
 
+import CheckPassFail.Programs.*;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        System.out.println("SumAndAverage:");
-        int sum = 0;
-        double average;
-        int lowerbound = 1;
-        int upperbound = 100;
-        int count = 0;
+        CheckPassFail checkPassFail = new CheckPassFail();
+        CheckOddEven checkOddEven = new CheckOddEven();
+        PrintNumberInWord printNumberInWord = new PrintNumberInWord();
+        PrintDayInWord printDayInWord = new PrintDayInWord();
+        SumAndAverage sumAndAverage = new SumAndAverage();
+        Product1ToN product1ToN = new Product1ToN();
 
-        for (int number1 = lowerbound; number1 <= upperbound; ++number1) {
-            sum += number1;
-            count++;
-        }
-        average = (double) sum / count;
-        System.out.println("Sum [for]: " + sum);
-        System.out.println("Average [for]: " + average + "\n");
+        boolean isWork = true;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        int numberWhileDo = lowerbound;
-        int sumWhileDo = 0;
-        while (numberWhileDo <= upperbound) {
-            sumWhileDo += numberWhileDo;
-            ++numberWhileDo;
-        }
-        double averageWhileDo = (double) sumWhileDo / count;
-        System.out.println("Sum [while-do]: " + sumWhileDo);
-        System.out.println("Average [while-do]: " + averageWhileDo + "\n");
-
-        int numberDoWhile = lowerbound;
-        int sumDoWhile = 0;
         do {
-            sumDoWhile += numberDoWhile;
-            ++numberDoWhile;
-        } while (numberDoWhile <= upperbound);
-        double averageDoWhile = (double) sumDoWhile / count;
-        System.out.println("Sum [do-while]: " + sumDoWhile);
-        System.out.println("Average [do-while]: " + averageDoWhile + "\n");
+            System.out.println("Menu:");
+            System.out.println("1. CheckPassFail");
+            System.out.println("2. CheckOddEven");
+            System.out.println("3. PrintNumberInWord");
+            System.out.println("4. PrintDayInWord");
+            System.out.println("5. SumAndAverage");
+            System.out.println("6. Product1ToN");
+            System.out.println("0. exit");
+
+            String s = reader.readLine();
+            switch (s) {
+                case "1":
+                    checkPassFail.CheckPassFail();
+                    break;
+                case "2":
+                    checkOddEven.CheckOddEven();
+                    break;
+                case "3":
+                    printNumberInWord.PrintNumberInWord();
+                    break;
+                case "4":
+                    printDayInWord.PrintDayInWord();
+                    break;
+                case "5":
+                    sumAndAverage.SumAndAverage();
+                    break;
+                case "6":
+                    product1ToN.Product1ToN();
+                    break;
+                case "0":
+                    isWork = false;
+                    break;
+                default:
+                    System.out.println("Пожалуйста, выберите один из пунктов меню. \nВводите только цифры.\n");
+                    break;
+            }
+        } while (isWork);
 
     }
 

@@ -2,7 +2,7 @@ package CheckPassFail.Programs;
 
 public class CheckPassFail {
 
-    public CheckPassFail(){
+    public void CheckPassFail(){
         System.out.println("CheckPassFail:");
         int mark = 60;
         System.out.println("The mark is " + mark);
