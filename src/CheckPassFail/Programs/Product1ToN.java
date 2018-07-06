@@ -1,7 +1,7 @@
 package CheckPassFail.Programs;
 
 public class Product1ToN {
-    public void Product1ToN(){
+    public static void Product1ToN(){
         System.out.println("Product1ToN:");
         long product = 1;
         int lowerbound = 1;

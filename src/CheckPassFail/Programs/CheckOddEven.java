@@ -1,7 +1,7 @@
 package CheckPassFail.Programs;
 
 public class CheckOddEven {
-    public void CheckOddEven(){
+    public static void CheckOddEven(){
         System.out.println("CheckOddEven:");
         int number = -49;
         System.out.println("The number is " + number);

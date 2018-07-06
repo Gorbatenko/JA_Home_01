@@ -1,7 +1,7 @@
 package CheckPassFail.Programs;
 
 public class PrintDayInWord {
-    public void PrintDayInWord(){
+    public static void PrintDayInWord(){
         System.out.println("PrintDayInWord:");
         int number = 5;
 

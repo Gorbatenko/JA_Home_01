@@ -1,7 +1,7 @@
 package CheckPassFail.Programs;
 
 public class SumAndAverage {
-    public void SumAndAverage() {
+    public static void SumAndAverage() {
         System.out.println("SumAndAverage:");
         int sum = 0;
         double average;

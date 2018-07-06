@@ -1,7 +1,7 @@
 package CheckPassFail.Programs;
 
 public class PrintNumberInWord {
-    public void PrintNumberInWord(){
+    public static void PrintNumberInWord(){
 
         System.out.println("PrintNumberInWord:");
         int number = 5;
