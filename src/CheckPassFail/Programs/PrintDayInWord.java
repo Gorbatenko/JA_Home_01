@@ -2,7 +2,10 @@ package CheckPassFail.Programs;
 
 public class PrintDayInWord {
     public static void PrintDayInWord(){
-        System.out.println("PrintDayInWord:");
+        System.out.println("Write a program called PrintDayInWord which prints “Sunday”, “Monday”, ... “Saturday”" +
+                " if the int variable \"day\" is 0, 1, ..., 6, respectively. " +
+                "Otherwise, it shall print “Not a valid day”. " +
+                "Use (a) a \"nested-if\" statement; (b) a \"switch-case\" statement.:");
         int number = 5;
 
         switch(number) {

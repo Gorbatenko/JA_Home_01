@@ -2,6 +2,8 @@ package CheckPassFail.Programs;
 
 public class ComputePI {
     public static void ComputePI(){
+        System.out.println("Write a program called ComputePI to compute the value of π, using the following series expansion. " +
+                "You have to decide on the termination criterion used in the computation");
 
         int maxTerm = 25000;
         double sum = 0.0;

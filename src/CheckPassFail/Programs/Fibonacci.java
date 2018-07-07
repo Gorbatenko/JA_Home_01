@@ -3,6 +3,9 @@ package CheckPassFail.Programs;
 public class Fibonacci {
 
     public static void Fibonacci(){
+        System.out.println("rite a program called Fibonacci to display the first 20 Fibonacci numbers F(n), " +
+                "where F(n)=F(n–1)+F(n–2) and F(1)=F(2)=1. Also compute their average");
+
         int counter = 3;
         int fibonaciNumber;
         int fibonaciMinus1 = 1;
