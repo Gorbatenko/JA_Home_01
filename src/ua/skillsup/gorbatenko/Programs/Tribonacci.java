@@ -1,7 +1,7 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class Tribonacci {
-    public static void Tribonacci(){
+    public static void tribonacci(){
         int counter = 4;
         int tribonaciNumber;
         int tribonaciMinus1 = 2;

@@ -1,8 +1,8 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class HarmonicSum {
 
-    public static void HarmonicSum(){
+    public static void harmonicSum(){
         System.out.println("Write a program called HarmonicSum to compute the sum of a harmonic series, " +
                 "as shown below, where n=50000. The program shall compute the sum from left-to-right " +
                 "as well as from the right-to-left. ");

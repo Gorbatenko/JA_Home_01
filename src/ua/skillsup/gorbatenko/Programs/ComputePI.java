@@ -1,7 +1,7 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class ComputePI {
-    public static void ComputePI(){
+    public static void computePI(){
         System.out.println("Write a program called ComputePI to compute the value of π, using the following series expansion. " +
                 "You have to decide on the termination criterion used in the computation");
 

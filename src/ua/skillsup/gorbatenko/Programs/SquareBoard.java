@@ -1,8 +1,9 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class SquareBoard {
-    public static void SquareBoard(){
-        System.out.println("Write a program called SquareBoard that displays the following n×n (n=5) pattern using two nested for-loops.");
+    public static void squareBoard(){
+        System.out.println("Write a program called SquareBoard that displays the following n×n (n=5)" +
+                " pattern using two nested for-loops.");
 
         int size = 5;
         for (int row = 1; row <= size; ++row) {
@@ -12,5 +13,4 @@ public class SquareBoard {
             System.out.println();
         }
     }
-
 }

@@ -1,8 +1,8 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class Fibonacci {
 
-    public static void Fibonacci(){
+    public static void fibonacci(){
         System.out.println("rite a program called Fibonacci to display the first 20 Fibonacci numbers F(n), " +
                 "where F(n)=F(n–1)+F(n–2) and F(1)=F(2)=1. Also compute their average");
 

@@ -1,7 +1,7 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class CheckOddEven {
-    public static void CheckOddEven(){
+    public static void checkOddEven(){
         System.out.println("Write a program called CheckOddEven which prints \"Odd Number\" " +
                 "if the int variable “number” is odd, or “Even Number” otherwise. " +
                 "The program shall always print “BYE!” before exiting.");

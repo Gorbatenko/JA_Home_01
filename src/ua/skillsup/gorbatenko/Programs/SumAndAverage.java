@@ -1,7 +1,7 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class SumAndAverage {
-    public static void SumAndAverage() {
+    public static void sumAndAverage() {
         System.out.println("Write a program called SumAndAverage to produce the sum of 1, 2, 3, ..., to 100. " +
                 "Also compute and display the average:");
         System.out.println("Modify the program to use a \"while-do\" loop instead of \"for\" loop.");

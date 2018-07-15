@@ -1,7 +1,7 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class PrintNumberInWord {
-    public static void PrintNumberInWord(){
+    public static void printNumberInWord(){
 
         System.out.println("Write a program called PrintNumberInWord which prints" +
                 " \"ONE\", \"TWO\",... , \"NINE\", \"OTHER\" " +

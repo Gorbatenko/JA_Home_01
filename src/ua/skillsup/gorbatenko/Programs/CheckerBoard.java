@@ -1,8 +1,8 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class CheckerBoard {
 
-    public static void CheckerBoard(){
+    public static void checkerBoard(){
         System.out.println("Write a program called CheckerBoard that displays the following n×n (n=7) checkerboard pattern using two nested for-loops.");
 
         int size = 7;

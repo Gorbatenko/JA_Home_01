@@ -1,6 +1,6 @@
-package CheckPassFail;
+package ua.skillsup.gorbatenko;
 
-import CheckPassFail.Programs.*;
+import ua.skillsup.gorbatenko.Programs.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,28 +17,29 @@ public class Main {
             System.out.println("1. CheckPassFail       7. HarmonicSum.    13. SquareBoard.\n" +
                     "2. CheckOddEven.       8. ComputePI.      14. CheckerBoard.\n" +
                     "3. PrintNumberInWord.  9. CozaLozaWoza.   15. TimeTable.(not work)\n" +
-                    "4. PrintDayInWord.    10. Fibonacci.\n" +
+                    "4. PrintDayInWord.    10. Fibonacci.      16. PrintPattern.\n" +
                     "5. SumAndAverage.     11. Tribonacci.\n" +
                     "6. Product1ToN.       12. ExtractDigits.\n" +
                     "0. Exit");
 
             String s = reader.readLine();
             switch (s) {
-                case "1": CheckPassFail.CheckPassFail(); break;
-                case "2": CheckOddEven.CheckOddEven();   break;
-                case "3": PrintNumberInWord.PrintNumberInWord();  break;
-                case "4": PrintDayInWord.PrintDayInWord();        break;
-                case "5": SumAndAverage.SumAndAverage(); break;
-                case "6": Product1ToN.Product1ToN();     break;
-                case "7": HarmonicSum.HarmonicSum();     break;
-                case "8": ComputePI.ComputePI();         break;
-                case "9": CozaLozaWoza.CozaLozaWoza();   break;
-                case "10": Fibonacci.Fibonacci();        break;
-                case "11": Tribonacci.Tribonacci();      break;
-                case "12": ExtractDigits.ExtractDigits();break;
-                case "13": SquareBoard.SquareBoard();    break;
-                case "14": CheckerBoard.CheckerBoard();  break;
-                case "15": TimeTable.TimeTable();        break;
+                case "1": CheckPassFail.checkPassFail(); break;
+                case "2": CheckOddEven.checkOddEven();   break;
+                case "3": PrintNumberInWord.printNumberInWord();  break;
+                case "4": PrintDayInWord.printDayInWord();        break;
+                case "5": SumAndAverage.sumAndAverage(); break;
+                case "6": Product1ToN.product1ToN();     break;
+                case "7": HarmonicSum.harmonicSum();     break;
+                case "8": ComputePI.computePI();         break;
+                case "9": CozaLozaWoza.cozaLozaWoza();   break;
+                case "10": Fibonacci.fibonacci();        break;
+                case "11": Tribonacci.tribonacci();      break;
+                case "12": ExtractDigits.extractDigits();break;
+                case "13": SquareBoard.squareBoard();    break;
+                case "14": CheckerBoard.checkerBoard();  break;
+                case "15": TimeTable.timeTable();        break;
+                case "16": PrintPattern.printPattern();  break;
                 case "0": isWork = false;                break;
                 default:
                     System.out.println("Пожалуйста, выберите один из пунктов меню. \nВводите только цифры.\n"); break;

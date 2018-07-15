@@ -1,8 +1,8 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class CheckPassFail {
 
-    public static void CheckPassFail(){
+    public static void checkPassFail(){
         System.out.println("Write a program called CheckPassFail which prints \"PASS\" " +
                 "if the int variable \"mark\" is more than or equal to 50; " +
                 "or prints \"FAIL\" otherwise. The program shall always print “DONE” before exiting.");

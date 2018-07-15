@@ -1,7 +1,7 @@
-package CheckPassFail.Programs;
+package ua.skillsup.gorbatenko.Programs;
 
 public class ExtractDigits {
-    public static void ExtractDigits(){
+    public static void extractDigits(){
 
         int n = 5345355;
         while (n > 0) {
