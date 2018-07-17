@@ -1,4 +1,4 @@
-package ua.skillsup.gorbatenko.Programs;
+package ua.skillsup.gorbatenko.Programs.homeWork1;
 
 public class Product1ToN {
     public static void product1ToN(){

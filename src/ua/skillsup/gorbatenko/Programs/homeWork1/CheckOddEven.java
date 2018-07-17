@@ -1,4 +1,4 @@
-package ua.skillsup.gorbatenko.Programs;
+package ua.skillsup.gorbatenko.Programs.homeWork1;
 
 public class CheckOddEven {
     public static void checkOddEven(){
